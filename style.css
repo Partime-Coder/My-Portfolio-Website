@@ -344,6 +344,24 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+.project-info {
+    width: 90%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* border: 2px solid white; */
+}
+
+.project-image {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 2px solid white; */
+
+}
 .skill-grid{
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -396,6 +414,10 @@ footer p {
     /* margin: 0px 20px; */
 
 
+}
+.Contact-title {
+    position: relative;
+    bottom: 100px;
 }
 
 } 
