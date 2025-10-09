@@ -326,6 +326,7 @@ footer p {
     align-items: center;
     position: relative;
     top: 50px;
+    gap: 20px;
 
 }
 .right-hero img{
@@ -347,7 +348,7 @@ footer p {
 
 .project-info {
     width: 90%;
-    min-height: 350px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -418,6 +419,23 @@ footer p {
 .Contact-title {
     position: relative;
     bottom: 100px;
+}
+.logo-warper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.Contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer p {
+    color: var(--primary-bg-color);
+    font-size: 10px;
 }
 
 } 
