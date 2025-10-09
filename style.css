@@ -332,7 +332,8 @@ footer p {
     align-items: center;
     position: relative;
     top: 50px;
-    gap: 20px;
+    gap: 30px;
+    margin-bottom: 30px;
 
 }
 .right-hero img{
