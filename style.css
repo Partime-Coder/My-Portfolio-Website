@@ -65,6 +65,12 @@ nav {
     font-weight: bold;
     color: #000;
 }
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #000;
+}
 
 .resume {
     padding: 10px 25px;
@@ -438,5 +444,10 @@ footer p {
     color: var(--primary-bg-color);
     font-size: 10px;
 }
-
+.hamburger {
+  display: block;
+  font-size: 28px;
+  cursor: pointer;
+  color: #000;
+}
 } 
