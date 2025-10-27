@@ -209,6 +209,7 @@ nav {
     align-items: center; */
 
     width: 45%;
+    /* height: 80%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,6 +321,7 @@ footer p {
     color: var(--primary-bg-color);
 }
 
+<<<<<<< HEAD
 
 
 @media screen and (max-width: 1000px){
@@ -474,6 +476,9 @@ footer p {
 
 
 @media screen and (max-width: 500px) {
+=======
+@media screen and (max-width: 600px) {
+>>>>>>> cd58e19012e98cab7ef936abe25ee7003ba15c52
   .warper {
     width: 95%;
     margin: 0 auto;
