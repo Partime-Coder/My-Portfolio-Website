@@ -320,6 +320,159 @@ footer p {
     color: var(--primary-bg-color);
 }
 
+
+
+@media screen and (max-width: 1000px){
+  .warper {
+    width: 95%;
+    margin: 0 auto;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: auto;
+
+}
+.right-hero img{
+    width: 80%;
+    
+}
+.right-hero {
+    text-align: center;
+    
+}
+
+.project-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.project-tab.even{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info {
+    width: 90%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* border: 2px solid white; */
+}
+
+.project-image {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+
+}
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+     gap: 20px;
+    margin-bottom: 15px;
+
+}
+
+.about-me{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.left-nav{
+ display: none;
+}
+.Contact-right{
+    display: none;
+}
+
+.about-me-left {
+    border: 2px solid var(--secondary-bg-color);
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.about-me-left img {
+    width: 80%;
+    height: 80%;
+}
+.about-me-right {
+    width: 90%;
+
+    /* margin: 0px 20px; */
+
+
+}
+.Contact-title {
+    position: relative;
+    bottom: 100px;
+}
+.logo-warper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.Contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer p {
+    color: var(--primary-bg-color);
+    font-size: 10px;
+}
+.hamburger {
+  display: block;
+  font-size: 28px;
+  cursor: pointer;
+  color: #000;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
   .warper {
     width: 95%;
@@ -366,7 +519,7 @@ footer p {
 .project-image {
     width: 90%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     /* border: 2px solid white; */
 
