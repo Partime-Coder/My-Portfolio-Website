@@ -323,6 +323,36 @@ footer p {
 
 
 @media screen and (max-width: 1000px){
+  
+.left-nav {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: -105%; 
+  width: 100%;
+  background: rgb(0, 0, 0);
+  padding: 20px 0;
+  transition: left 0.3s ease-in-out;
+  justify-content: center;
+  border-top: 1px solid #ddd;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.left-nav ul {
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+.left-nav ul li a{
+ color: #ffffff;
+}
+
+.left-nav.active {
+  left: 0;
+}
+
   .warper {
     width: 95%;
     margin: 0 auto;
@@ -394,9 +424,10 @@ footer p {
     justify-content: center;
     align-items: start;
 }
-.left-nav{
- display: none;
-}
+/* .left-nav{
+display: none;
+} */
+
 .Contact-right{
     display: none;
 }
@@ -460,6 +491,7 @@ footer p {
   color: #000;
 }
 }
+
 
 
 
@@ -539,9 +571,9 @@ footer p {
     justify-content: center;
     align-items: start;
 }
-.left-nav{
+/* .left-nav{
  display: none;
-}
+} */
 .Contact-right{
     display: none;
 }
