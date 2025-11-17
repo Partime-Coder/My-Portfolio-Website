@@ -32,7 +32,9 @@
                     </ul>
                 </div>
                 <div class="right-nav">
-                    <button class="resume">Resume<i class="fa-solid fa-download"></i></button>
+                    <button class="resume" id="downloadBtn">
+                        Resume <i class="fa-solid fa-download"></i>
+                    </button>
                 </div>
             </nav>
             <div class="hero-section">
@@ -219,13 +221,19 @@
         <p>© 2025 Sujal Bhagat — Always learning. Always improving.</p>
     </footer>
     <script>
-  const hamburger = document.querySelector(".hamburger");
-  const leftNav = document.querySelector(".left-nav");
+        const hamburger = document.querySelector(".hamburger");
+        const leftNav = document.querySelector(".left-nav");
 
-  hamburger.addEventListener("click", () => {
-    leftNav.classList.toggle("active");
-  });
-</script>
+        hamburger.addEventListener("click", () => {
+            leftNav.classList.toggle("active");
+        });
+        document.getElementById("downloadBtn").addEventListener("click", () => {
+            const link = document.createElement("a");
+            link.href = "Document/Sujal Bhagat Resume.pdf";
+            link.download = "Sujal Bhagat resume.pdf";
+            link.click();
+        });
+    </script>
 
 </body>
 

@@ -345,6 +345,10 @@ footer p {
   gap: 25px;
   text-align: center;
 }
+.left-nav ul li {
+position: relative;
+left: -25px
+}
 .left-nav ul li a{
  color: #ffffff;
 }
